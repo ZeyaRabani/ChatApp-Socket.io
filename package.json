@@ -1,0 +1,29 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeyaRabani/ChatApp-Socket.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeyaRabani/ChatApp-Socket.io/issues"
+  },
+  "homepage": "https://github.com/ZeyaRabani/ChatApp-Socket.io#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "html": "^1.0.0",
+    "http": "^0.0.1-security",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
